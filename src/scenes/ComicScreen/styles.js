@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     smallTitle: {
         textAlign: 'center',
         color: '#fff',
-        fontSize: 40,
+        fontSize: 36,
         width: 360,
         fontFamily: 'BebasNeue-Regular',
     },

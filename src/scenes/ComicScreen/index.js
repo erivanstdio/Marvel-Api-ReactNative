@@ -24,7 +24,7 @@ const ComicScreen = ({ route }) => {
     <View style={styles.container}>
       <Header/>
       <View style={styles.comicInfo}>
-        <Text style={ numCharacters > 54 ? styles.bigTitle : numCharacters > 30 && numCharacters < 54 ? styles.mediumTitle : styles.smallTitle } >{comicTitle}</Text>
+        <Text style={ numCharacters > 54 ? styles.bigTitle : numCharacters > 31 && numCharacters < 55 ? styles.mediumTitle : styles.smallTitle } >{comicTitle}</Text>
         <Image style={styles.image} source={ 
             imagePath!=="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available" 
             ? {uri: `${imagePath}.${imageExtension}`} 
