@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
     },
     comicInfo: {
         marginTop: 40,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginBottom: 40,
     },
     bigTitle: {
         textAlign: 'center',
